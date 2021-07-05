@@ -1,6 +1,6 @@
 import psycopg2
 from sql_queries import create_table_queries, drop_table_queries
-conn = psycopg2.connect("dbname=capstone user=postgres password=password")
+conn = psycopg2.connect("dbname=database_name user=postgres password=password")
 
 def create_database():
     """
